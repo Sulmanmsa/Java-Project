@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout your code from Git repository
-                git branch: 'master', url: https://github.com/Sulmanmsa/Java-Project.git
+                git branch: 'master',: https://github.com/Sulmanmsa/Java-Project.git
             }
         }
 
