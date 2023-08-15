@@ -15,7 +15,7 @@ pipeline {
                 bat 'mvn clean package'
 
                 // Copy the WAR file to Tomcat's webapps directory
-                bat 'copy target/HelloWorldProject-1.0-SNAPSHOT.war "C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0_Tomcat9_temp\\webapps\\ROOT.war"'
+                bat 'copy target\\HelloWorldProject-1.0-SNAPSHOT.war "C:\\Program Files\\Apache Software Foundation\\Tomcat 9.0_Tomcat9_temp\\webapps\\ROOT.war"'
             }
         }
     }
